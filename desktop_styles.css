@@ -14,7 +14,6 @@
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
-
     }
     
     .heroContainer
@@ -142,7 +141,7 @@
     .sectionSubtext
     {
         font-size: 16px;
-        color: #f36c36;
+        color: #72383d;
     }
 
     .sectionTitleText
@@ -153,7 +152,7 @@
 
     .orangeText
     {
-        color: #f36c36;
+        color: #72383d;
     }
 
     .boldText
@@ -204,7 +203,7 @@
 
     .pricingContactUsButton
     {
-        background-color: #f36c36;
+        background-color: #72383d;
         color: #fff;
         border-style: none;
         padding: 10px;
@@ -221,8 +220,8 @@
         justify-content: space-between;
         align-items: center;
 
-        border-top: #f36c36;
-        border-bottom: #f36c36;
+        border-top: #72383d;
+        border-bottom: #72383d;
 
         border-style: solid;
 
@@ -236,13 +235,13 @@
     .faqBox:hover
     {
         cursor: pointer;
-        background-color: #f36c36;
+        background-color: #72383d;
         color: #fff;
     }
 
     .normalButton
     {
-        background-color: #f36c36;
+        background-color: #72383d;
         color: #fff;
         border-style: none;
         padding: 10px;
@@ -253,22 +252,30 @@
         cursor: pointer;
 
     }
+    
 
     .normalButton:hover
     {
         background-color: #fff;
-        color: #f36c36;
+        color: #72383d;
     }
 
     .contactForm
     {
         padding: 30px;
         width: 500px;
-        background-color: #0a2230;
+        background-color: #322d29;
 
         border-radius: 16px;
 
         color:white;
+    }
+
+    .contactInputMessage
+    {
+        resize: none;
+        width: 400px;
+        padding: 10px;
     }
 
     .formField
@@ -371,7 +378,7 @@
     .greyButtons
     {
         background-color: #D8D8D8;
-        color: #0a2230;
+        color: #72383d;
         border-style: none;
         padding: 10px;
 
@@ -384,7 +391,7 @@
 
     .greyButtons:hover
     {
-        background-color: #0a2230;
+        background-color: #72383d;
         color: #f6f6f6;
     }
 
@@ -395,7 +402,7 @@
         justify-content: center;
         align-items: center;
 
-        background-color: #0a2230;
+        background-color: #322d29;
         color: #fff;
 
         width: 100%;

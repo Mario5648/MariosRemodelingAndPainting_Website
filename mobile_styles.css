@@ -32,7 +32,7 @@
         justify-content: space-between;
         align-items: center;
 
-        background-color: #0a2230;
+        background-color: #322d29;
         color: white;
 
         padding-left: 30px;
@@ -64,7 +64,7 @@
 
         display: none;
         
-        background-color: #0a2230;
+        background-color: #322d29;
         color: #fff; 
 
         padding: 30px;
@@ -148,7 +148,7 @@
     .sectionSubtext
     {
         font-size: 16px;
-        color: #f36c36;
+        color: #72383d;
     }
 
     .sectionTitleText
@@ -159,7 +159,7 @@
 
     .orangeText
     {
-        color: #f36c36;
+        color: #72383d;
     }
 
     .boldText
@@ -212,7 +212,7 @@
 
     .pricingContactUsButton
     {
-        background-color: #f36c36;
+        background-color: #72383d;
         color: #fff;
         border-style: none;
 
@@ -229,8 +229,8 @@
         justify-content: space-between;
         align-items: center;
 
-        border-top: #f36c36;
-        border-bottom: #f36c36;
+        border-top: #72383d;
+        border-bottom: #72383d;
 
         border-style: solid;
 
@@ -243,13 +243,13 @@
     .faqBox:hover
     {
         cursor: pointer;
-        background-color: #f36c36;
+        background-color: #72383d;
         color: #fff;
     }
 
     .normalButton
     {
-        background-color: #f36c36;
+        background-color: #72383d;
         color: #fff;
         border-style: none;
 
@@ -264,13 +264,13 @@
     .normalButton:hover
     {
         background-color: #fff;
-        color: #f36c36;
+        color: #72383d;
     }
 
     .contactForm
     {
-        width: max-content;
-        background-color: #0a2230;
+        width: 350px;
+        background-color: #322d29;
 
         border-radius: 16px;
 
@@ -279,17 +279,23 @@
         padding: 30px;
 
     }
+    .contactInputMessage
+    {
+        resize: none;
+        width: 330px;
+        padding: 10px;
+    }
 
     .formField
     {
-        width: 200px;
+        width: 330px;
 
         padding: 10px;
     }
 
     .selectorField
     {
-        width: 225px;
+        width: 350px;
         padding: 10px;
     }
 
@@ -381,7 +387,7 @@
     .greyButtons
     {
         background-color: #D8D8D8;
-        color: #0a2230;
+        color: #322d29;
         border-style: none;
 
         border-radius: 16px;
@@ -393,7 +399,7 @@
 
     .greyButtons:hover
     {
-        background-color: #0a2230;
+        background-color: #322d29;
         color: #f6f6f6;
     }
 
@@ -406,7 +412,7 @@
         flex-wrap: wrap;
 
 
-        background-color: #0a2230;
+        background-color: #322d29;
         color: #fff;
 
         width: 100%;
