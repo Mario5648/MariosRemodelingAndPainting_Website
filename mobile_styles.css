@@ -269,7 +269,7 @@
 
     .contactForm
     {
-        width: 350px;
+        width: max-content;
         background-color: #322d29;
 
         border-radius: 16px;
@@ -282,20 +282,20 @@
     .contactInputMessage
     {
         resize: none;
-        width: 330px;
+        width: 200px;
         padding: 10px;
     }
 
     .formField
     {
-        width: 330px;
+        width: 200px;
 
         padding: 10px;
     }
 
     .selectorField
     {
-        width: 350px;
+        width: 225px;
         padding: 10px;
     }
 
