@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario's Remodeling & Painting</title>
+    <link rel="stylesheet" href="desktop_styles.css">
+    <link rel="stylesheet" href="mobile_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
+    <script src="api_calls.js"></script>
+    <link rel="icon" type="image/x-icon" href="../placeOfHomeLogo.ico">
+
+</head>
+<body>
+
+    <!-- Hero -->
+    <div class="heroContainer">
+        <img class="backgroundImage" src="hero_img1.webp" />
+        <div class="navBarContainter">
+            <img class="logoImageHero" src="mrp_logo.png" />
+            <div class="desktopMenu">
+                <a href="#pricing">Services</a>
+                <a href="#example">Contact</a>
+                <a href="#contactUs">About Us</a>
+                <a href="#contactUs">Projects</a>
+            </div>
+
+            <div class="mobileMenu">
+                <div class="topnav">
+                    <a href="javascript:void(0);" onclick="renderMobileMenu()"><i class="fa fa-bars active" style="color:white;font-size: 50px;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="myLinks" class="mobileMenuOptionsContainer hideDesktop">
+            <div class="mobileMenuOptions">
+                <a href="#pricing">Services</a>
+                <a href="#example">Contact</a>
+                <a href="#contactUs">About Us</a>
+                <a href="#contactUs">Projects</a>
+            </div>
+        </div>
+        <span class="hideMobile">
+            <div class="centeredHeroTitleText">Building Beauty, Room by Room</div>
+            <div class="centeredHeroText">Revitalize your home with Mario's Remodeling & Painting, where we blend expert craftsmanship and innovative design to create spaces that reflect your style and enrich your life.</div>
+        </span>
+        <div class="heroContentSection hideDesktop">
+            <div class="centeredHeroTitleText">Building Beauty, Room by Room</div>
+            <div class="centeredHeroText">Revitalize your home with Mario's Remodeling & Painting, where we blend expert craftsmanship and innovative design to create spaces that reflect your style and enrich your life.</div>
+            <a href="#contactUs"><button class="pricingContactUsButton" style="margin-left:30px;">Contact Us</button></a>
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--About-->
+    <div class="halfContainer">
+        <div class="leftSection">
+            <p class="sectionSubtext">We are the Best</p>
+            <p class="sectionTitleText">About Us</p>
+            <p>Based in the heart of San Antonio, Mario's Remodeling & Painting has been a cornerstone in the remodeling industry for over 15 years. Our team of seasoned experts specializes in a comprehensive range of remodeling services, ensuring that whether it's a kitchen upgrade, a bathroom transformation, or a complete home renovation, we have the skills and experience to do it all. We're dedicated to bringing your vision to life with precision and passion, making every project a testament to our commitment to excellence.</p>
+        </div>
+
+        <div clas="rightSection">
+            <img class="normalSectionImage" src="./about.webp">
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--Why us-->
+    <div class="halfContainer">
+        <div clas="leftSection">
+            <img class="normalSectionImage" src="./why_us.jpg">
+        </div>
+        <div class="rightSection">
+            <p class="sectionSubtext">Best Choice</p>
+            <p class="sectionTitleText">Why Choose Us</p>
+            <p class="boldText"><i class="fa fa-check orangeText"></i> Local Expertise</p>
+            <p>Rooted in San Antonio, we understand the unique architectural styles and local preferences. Our deep knowledge of regional trends ensures that your remodeling projects not only meet but exceed local standards and expectations.</p>
+            <p class="boldText"><i class="fa fa-check orangeText"></i> Comprehensive Capabilities</p>
+            <p>With over 15 years of experience, we are equipped to handle any remodeling challenge, big or small. From initial design to final touches, our full-spectrum services mean you don't have to juggle multiple contractors, making the process seamless and efficient.</p>
+            <p class="boldText"><i class="fa fa-check orangeText"></i> Customer-Centric Approach</p>
+            <p>We prioritize your vision and satisfaction above all else. We collaborate closely with you throughout the process, ensuring that every detail aligns with your expectations. Our commitment to your happiness is reflected in our high client retention and referral rates.</p>    
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--FAQ-->
+    <div class="halfContainer">
+        <div class="leftSection">
+            <p class="sectionSubtext">Actuals</p>
+            <p class="sectionTitleText">FAQs</p>
+            <div class="faqBox" onclick="generateFaqAnswer(1)" id="faqBox1">
+                <p>What types of remodeling services do you offer?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer1"></div>
+            <div class="faqBox" onclick="generateFaqAnswer(2)" id="faqBox2">
+                <p>How do we start a remodeling project with you?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer2"></div>
+            <div class="faqBox" onclick="generateFaqAnswer(3)" id="faqBox3">
+                <p>Can you work within my budget?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer3"></div>
+            <div class="faqBox" onclick="generateFaqAnswer(4)" id="faqBox4">
+                <p>How long will my remodeling project take?</p>
+                <p>+</p>
+            </div>
+            <div class="faqBoxAnswer" id="faqBoxAnswer4"></div>
+        </div>
+
+        <div clas="rightSection">
+            <img class="normalSectionImage" src="./faq.jpg">
+        </div>
+    </div>
+
+    <div class="mobile_padding"></div>
+
+    <!--Contact Us-->
+    <div class="halfContainer" id="contactUs">
+        <div class="leftSection">
+            <p class="sectionSubtext">We Are Here</p>
+            <p class="sectionTitleText">Contact Us</p>
+            <p>Email : mremodeling@att.net</p>
+            <p>Phone Number : (210) 240-2662</p>
+        </div>
+
+        <div clas="rightSection">
+            <div class="contactForm">
+                <label for="clientName">Name:</label><br><br>
+                <input class="formField" type="text" id="clientName" name="clientName" placeholder="John Doe"></input>
+                <br>
+                <br>
+                <br>
+                <label for="clientEmail">Email:</label><br><br>
+                <input class="formField" type="text" id="clientEmail" name="clientEmail" placeholder="john@apartments.com"></input>
+                <br>
+                <br>
+                <br>
+                <label for="clientReason">Reason:</label><br><br>
+                <select class="selectorField" id="clientReason" name="clientReason">
+                    <option value="requestInfo">Request More Information</option>
+                    <option value="scheduleMeeting">Schedule Meeting</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="clientMessage">Message:</label><br><br>
+                <textarea class="formField" id="clientMessage" name="clientMessage" rows="8" cols="35" class="contactInputMessage"></textarea>
+                <br>
+                <br>
+                <br>
+                <button id="sendMessageButton" class="normalButton" onclick="sendMessageOnClick()">Send Message</button>                
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile_padding_footer"></div>
+
+    <!-- footer -->
+    <div class="footerContainer">
+        <div class="footerContents">
+            <div class="footerRight">
+                <p class="boldText">Quick Links</p>
+                <a href="https://placeofhome.org"><p>Home</p></a>
+                <a href="#pricing"><p>Services</p></a>
+                <a href="#example"><p>Contact</p></a>
+                <a href="#contactUs"><p>About Us</p></a>
+                <a href="#contactUs"><p>Projects</p></a>
+            </div>
+
+            <div class="footerLeft">
+                <p class="boldText">Social Media</p>
+                <a href="https://www.instagram.com/mremodeling_painting/?hl=en"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD00lEQVR4nO1ZS08UQRCeAyqGh+ARrioYD+LrphJvEhPRX2CMyB9QQc88rgTDUYJ/wEfiSUBFb+hdQC+661VRcGCqJvKZ7q5ZB93Z7Zmd2V2TrWSTzUx31VfT9W7HaVCDak/wvB4wj4JoEcwrIPoJZqTyM7xWQLQA5hF43pH0FWA+DaIXqYG2V24RzKcqVwDYA6IZEO0I469gfgDPu6xPB2hJ5UsZWS2ap+cNgnlWZCmZOyC6D6ApKeNOEL0UZi6IxgC0pwXcQn47iMZBtFU4HaAjyUkEpvRFmVZmiMthIToO5k+izGsAe+NsnhElcnDdrkyR2uBx3S4w50WZ6TiOvSPmdMKpEwLRSW1mRL/Uf5sNxqSIxpw6IxBNCLYFmzxholMVHbsg3/cviU/m4fsD/7wHDoDom8boeYejGalkZ3xjNmvQEfLzoTySi1gzJ+/vRDMyWVVpO5gl4IoU8byrYjXzpRitiSKJywPJP9fB/BTMq7r0MOXHKpif6HdAZ9G9vj8gyuTg+xdLmj/zajQIog29CGhLoMB+MN8D0XeL0mMdzHcBNCeQ0yY8NqIXiaBEcZ7oXQjocxANBWWMlB+9+hnRfGjd2yR5CuVwJlFEklUuOG4wn7UAcq5gxgmSLtJWRJtTcBJEr+LUQuJLS7J3OY6ZIXVFlE+YPSuxC7pAmT8nM1oTReSLBo5d1pxKyOwvBAAUj2bZKmJCrHbsGLhL5y+ia9VXROUEI/xGDMzFeRHdFNmPaqFIkDx7YmAuzkuF5nJJLkPT2pTk2WqzviQvoFVOd/N/V6RdFPlhtb5hWqWdfcipkMA8XDtnp0L4jS6nLUnmVzUKvyYhrsue8zFw7+bj+xdCCbGj1iXKmm1WLlKifCjb8VWhaGzWpbj5oktxlAFwEERv6qJoLFLGq6/b79iZ08e6KeP/aqyWQw2Tqp2G4XlHdbJTP/VfPQscOziJTBorqqjVbZYrh3XLVncEwL6sWt21FIYPHSqMgvmx3HdsShWwop+pdwl6l7jDh5qOg2woNA6Kbh/0cddwQGdDYH4oGG/V7ci0HFmPTP8qF8adOiMQTVp3perOTq4VtqzG91UimOuObblW6LPbpO7sjB3m4brdmaMsh8d1u0MXPVP2G4GmUOJSY/4zmSIthYWoD8yfC4k27qWo5IPAX5SZTShnywxxccee1OYk7ULi/CMnM63t0jBTEWMOnndFDwxSaHNDslQZ0yt5Yq4QnYxPTCW+nt4lhOgYiJ6VLT3S/hEtZBJwVOxWfYNM1E35kR5oxeu9nuQz38b29qHUFWhQg5zY9BvL6osF8D3vmwAAAABJRU5ErkJggg=="></a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p>Developed by Mantis Software LLC</p>
+    </div>
+</body>
+</html>
